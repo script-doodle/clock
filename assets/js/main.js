@@ -1,4 +1,4 @@
-// Clock functionality
+/*=========== CLOCK FUNCTIONALITY ===========*/
 const deg = 6;
 const hr = document.querySelector("#hr");
 const mn = document.querySelector("#mn");
@@ -15,8 +15,9 @@ setInterval(() => {
   sc.style.transform = `rotateZ(${ss}deg)`;
 });
 
-// Toggle theme
-function toggleClass() {
-  const body = document.querySelector("body");
-  body.classList.toggle("light");
-}
+/*=========== TOGGLE THEME ===========*/
+const body = document.querySelector("body");
+const themeButton = document.querySelector(".themeButton");
+themeButton.addEventListener("click", () => {
+  body.classList.toggle("dark");
+});
