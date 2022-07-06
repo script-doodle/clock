@@ -1,5 +1,5 @@
 # Minimal Clock UI
-## To Experience Live Demo [Click Here](https://md-mussanna-bin-sharif.github.io/clock/)
+## [Live Demo](https://mahin-codes.github.io/clock/)
 ### Minimal Clock UI
 - Crafted Using HTML, CSS & JavaScript.
 - Light and Dark Theme.
